@@ -2,7 +2,7 @@
 
 namespace Ungnguyen\PhpDesignPattern\Structural\Decorator\TextFormat;
 
-class TextFormatDecorator implements TextFormatInterface
+class TextFormatBaseDecorator implements TextFormatInterface
 {
     protected TextFormatInterface $component;
 

@@ -13,8 +13,8 @@ class LoggingDemo implements DemoInterface
     {
         $message = "This is log content.";
         $logger = new LoggerConcrete();
-        $logger1 = new LoggerWithTimestamp($logger);
-        $logger2 = new LoggerWithIpAddress($logger1);
-        $logger2->log($message);
+        $logger = new LoggerBaseWithTimestamp($logger);
+        $logger = new LoggerBaseWithIpAddress($logger);
+        $logger->log($message);
     }
 }

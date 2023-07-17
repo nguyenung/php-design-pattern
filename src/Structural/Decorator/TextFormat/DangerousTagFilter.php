@@ -2,7 +2,7 @@
 
 namespace Ungnguyen\PhpDesignPattern\Structural\Decorator\TextFormat;
 
-class DangerousTagFilter extends TextFormatDecorator
+class DangerousTagFilter extends TextFormatBaseDecorator
 {
     protected string $dangerousPatterns = "/<script\b[^>]*>(.*?)<\/script>/is";
 

@@ -2,12 +2,12 @@
 
 namespace Ungnguyen\PhpDesignPattern\Structural\Decorator\Logging;
 
-class LoggerWithTimestamp extends LoggerDecorator
+class LoggerBaseWithIpAddress extends LoggerBaseDecorator
 {
     public function log(string $message): void
     {
-        $timestamp = date('Y-m-d H:i:s');
-        $logMessage = "[$timestamp]$message";
+        $ip = '127.0.0.1';
+        $logMessage = "[$ip]$message";
         $this->component->log($logMessage);
     }
 }

@@ -18,10 +18,10 @@ class TextFormatDemo implements DemoInterface
 
         $formatter = new TextFormatConcrete();
 
-        $dangerousTagFilter = new DangerousTagFilter($formatter);
+        $formatter = new DangerousTagFilter($formatter);
 
-        $plainTextFilter = new PlainTextFilter($dangerousTagFilter);
+        $formatter = new PlainBaseTextFilter($formatter);
 
-        var_dump($plainTextFilter->formatText($text));
+        var_dump($formatter->formatText($text));
     }
 }

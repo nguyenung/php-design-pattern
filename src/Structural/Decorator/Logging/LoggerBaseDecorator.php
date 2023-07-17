@@ -2,7 +2,7 @@
 
 namespace Ungnguyen\PhpDesignPattern\Structural\Decorator\Logging;
 
-class LoggerDecorator implements LoggerInterface
+class LoggerBaseDecorator implements LoggerInterface
 {
     protected LoggerInterface $component;
 

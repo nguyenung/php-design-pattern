@@ -3,6 +3,7 @@ require_once 'vendor/autoload.php';
 
 use Ungnguyen\PhpDesignPattern\Structural\Adapter\Notification\NotificationDemo;
 use Ungnguyen\PhpDesignPattern\Structural\Adapter\PegAndHole\PegAndHoleDemo;
+use Ungnguyen\PhpDesignPattern\Structural\Bridge\ImageImplementor\ImageImplementorDemo;
 use Ungnguyen\PhpDesignPattern\Structural\Decorator\Logging\LoggingDemo;
 use Ungnguyen\PhpDesignPattern\Structural\Decorator\TextFormat\TextFormatDemo;
 
@@ -17,3 +18,8 @@ use Ungnguyen\PhpDesignPattern\Structural\Decorator\TextFormat\TextFormatDemo;
  */
 //PegAndHoleDemo::main();
 //NotificationDemo::main();
+
+/**
+ * Bridge pattern demo
+ */
+ImageImplementorDemo::main();

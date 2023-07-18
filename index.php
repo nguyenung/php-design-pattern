@@ -5,6 +5,7 @@ use Ungnguyen\PhpDesignPattern\Structural\Adapter\Notification\NotificationDemo;
 use Ungnguyen\PhpDesignPattern\Structural\Adapter\PegAndHole\PegAndHoleDemo;
 use Ungnguyen\PhpDesignPattern\Structural\Bridge\ImageImplementor\ImageImplementorDemo;
 use Ungnguyen\PhpDesignPattern\Structural\Bridge\RemoteControl\RemoteControlDemo;
+use Ungnguyen\PhpDesignPattern\Structural\Bridge\RenderView\RenderViewDemo;
 use Ungnguyen\PhpDesignPattern\Structural\Decorator\Logging\LoggingDemo;
 use Ungnguyen\PhpDesignPattern\Structural\Decorator\TextFormat\TextFormatDemo;
 
@@ -24,4 +25,5 @@ use Ungnguyen\PhpDesignPattern\Structural\Decorator\TextFormat\TextFormatDemo;
  * Bridge pattern demo
  */
 //ImageImplementorDemo::main();
-RemoteControlDemo::main();
+//RemoteControlDemo::main();
+//RenderViewDemo::main();

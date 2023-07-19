@@ -11,6 +11,7 @@ use Ungnguyen\PhpDesignPattern\Structural\Composite\GiftPrice\GiftPriceDemo;
 use Ungnguyen\PhpDesignPattern\Structural\Decorator\Logging\LoggingDemo;
 use Ungnguyen\PhpDesignPattern\Structural\Decorator\TextFormat\TextFormatDemo;
 use Ungnguyen\PhpDesignPattern\Structural\Facade\EmailWelcome\EmailWelcomeDemo;
+use Ungnguyen\PhpDesignPattern\Structural\Flyweight\CatVariation\CatVariationDemo;
 use Ungnguyen\PhpDesignPattern\Structural\Flyweight\GameCharacter\GameCharacterDemo;
 
 /**
@@ -46,4 +47,5 @@ use Ungnguyen\PhpDesignPattern\Structural\Flyweight\GameCharacter\GameCharacterD
 /**
  * Flyweight pattern demo
  */
-GameCharacterDemo::main();
+//GameCharacterDemo::main();
+//CatVariationDemo::main();

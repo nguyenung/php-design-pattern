@@ -10,6 +10,7 @@ use Ungnguyen\PhpDesignPattern\Structural\Composite\CompanyStructure\CompanyStru
 use Ungnguyen\PhpDesignPattern\Structural\Composite\GiftPrice\GiftPriceDemo;
 use Ungnguyen\PhpDesignPattern\Structural\Decorator\Logging\LoggingDemo;
 use Ungnguyen\PhpDesignPattern\Structural\Decorator\TextFormat\TextFormatDemo;
+use Ungnguyen\PhpDesignPattern\Structural\Facade\EmailWelcome\EmailWelcomeDemo;
 
 /**
  * Decorator pattern demo
@@ -34,4 +35,9 @@ use Ungnguyen\PhpDesignPattern\Structural\Decorator\TextFormat\TextFormatDemo;
  * Composite pattern demo
  */
 //GiftPriceDemo::main();
-CompanyStructureDemo::main();
+//CompanyStructureDemo::main();
+
+/**
+ * Facade pattern demo
+ */
+EmailWelcomeDemo::main();

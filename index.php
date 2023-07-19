@@ -6,6 +6,7 @@ use Ungnguyen\PhpDesignPattern\Structural\Adapter\PegAndHole\PegAndHoleDemo;
 use Ungnguyen\PhpDesignPattern\Structural\Bridge\ImageImplementor\ImageImplementorDemo;
 use Ungnguyen\PhpDesignPattern\Structural\Bridge\RemoteControl\RemoteControlDemo;
 use Ungnguyen\PhpDesignPattern\Structural\Bridge\RenderView\RenderViewDemo;
+use Ungnguyen\PhpDesignPattern\Structural\Composite\CompanyStructure\CompanyStructureDemo;
 use Ungnguyen\PhpDesignPattern\Structural\Composite\GiftPrice\GiftPriceDemo;
 use Ungnguyen\PhpDesignPattern\Structural\Decorator\Logging\LoggingDemo;
 use Ungnguyen\PhpDesignPattern\Structural\Decorator\TextFormat\TextFormatDemo;
@@ -32,4 +33,5 @@ use Ungnguyen\PhpDesignPattern\Structural\Decorator\TextFormat\TextFormatDemo;
 /**
  * Composite pattern demo
  */
-GiftPriceDemo::main();
+//GiftPriceDemo::main();
+CompanyStructureDemo::main();

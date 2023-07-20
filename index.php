@@ -13,6 +13,7 @@ use Ungnguyen\PhpDesignPattern\Structural\Decorator\TextFormat\TextFormatDemo;
 use Ungnguyen\PhpDesignPattern\Structural\Facade\EmailWelcome\EmailWelcomeDemo;
 use Ungnguyen\PhpDesignPattern\Structural\Flyweight\CatVariation\CatVariationDemo;
 use Ungnguyen\PhpDesignPattern\Structural\Flyweight\GameCharacter\GameCharacterDemo;
+use Ungnguyen\PhpDesignPattern\Structural\Proxy\YoutubeManager\YoutubeManagerDemo;
 
 /**
  * Decorator pattern demo
@@ -49,3 +50,8 @@ use Ungnguyen\PhpDesignPattern\Structural\Flyweight\GameCharacter\GameCharacterD
  */
 //GameCharacterDemo::main();
 //CatVariationDemo::main();
+
+/**
+ * Proxy pattern demo
+ */
+YoutubeManagerDemo::main();

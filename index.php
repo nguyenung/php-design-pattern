@@ -1,6 +1,7 @@
 <?php
 require_once 'vendor/autoload.php';
 
+use Ungnguyen\PhpDesignPattern\Creational\AbstractFactory\Furniture\FurnitureDemo;
 use Ungnguyen\PhpDesignPattern\Creational\AbstractFactory\PhoneAndTablet\PhoneAndTabletDemo;
 use Ungnguyen\PhpDesignPattern\Creational\FactoryMethod\Animal\AnimalDemo;
 use Ungnguyen\PhpDesignPattern\Creational\FactoryMethod\Logistic\LogisticDemo;
@@ -69,3 +70,4 @@ use Ungnguyen\PhpDesignPattern\Structural\Proxy\YoutubeManager\YoutubeManagerDem
  * Abstract factory pattern demo
  */
 //PhoneAndTabletDemo::main();
+//FurnitureDemo::main();

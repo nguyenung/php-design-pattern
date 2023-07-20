@@ -1,6 +1,7 @@
 <?php
 require_once 'vendor/autoload.php';
 
+use Ungnguyen\PhpDesignPattern\Creational\FactoryMethod\Animal\AnimalDemo;
 use Ungnguyen\PhpDesignPattern\Creational\FactoryMethod\Logistic\LogisticDemo;
 use Ungnguyen\PhpDesignPattern\Structural\Adapter\Notification\NotificationDemo;
 use Ungnguyen\PhpDesignPattern\Structural\Adapter\PegAndHole\PegAndHoleDemo;
@@ -60,4 +61,5 @@ use Ungnguyen\PhpDesignPattern\Structural\Proxy\YoutubeManager\YoutubeManagerDem
 /**
  * Factory method pattern demo
  */
-LogisticDemo::main();
+//LogisticDemo::main();
+//AnimalDemo::main();

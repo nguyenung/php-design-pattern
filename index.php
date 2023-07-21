@@ -3,6 +3,7 @@ require_once 'vendor/autoload.php';
 
 use Ungnguyen\PhpDesignPattern\Creational\AbstractFactory\Furniture\FurnitureDemo;
 use Ungnguyen\PhpDesignPattern\Creational\AbstractFactory\PhoneAndTablet\PhoneAndTabletDemo;
+use Ungnguyen\PhpDesignPattern\Creational\Builder\HousePlan\HousePlanDemo;
 use Ungnguyen\PhpDesignPattern\Creational\FactoryMethod\Animal\AnimalDemo;
 use Ungnguyen\PhpDesignPattern\Creational\FactoryMethod\Logistic\LogisticDemo;
 use Ungnguyen\PhpDesignPattern\Structural\Adapter\Notification\NotificationDemo;
@@ -71,3 +72,8 @@ use Ungnguyen\PhpDesignPattern\Structural\Proxy\YoutubeManager\YoutubeManagerDem
  */
 //PhoneAndTabletDemo::main();
 //FurnitureDemo::main();
+
+/**
+ * Builder pattern demo
+ */
+HousePlanDemo::main();

@@ -6,6 +6,7 @@ use Ungnguyen\PhpDesignPattern\Creational\AbstractFactory\PhoneAndTablet\PhoneAn
 use Ungnguyen\PhpDesignPattern\Creational\Builder\HousePlan\HousePlanDemo;
 use Ungnguyen\PhpDesignPattern\Creational\FactoryMethod\Animal\AnimalDemo;
 use Ungnguyen\PhpDesignPattern\Creational\FactoryMethod\Logistic\LogisticDemo;
+use Ungnguyen\PhpDesignPattern\Creational\Prototype\Page\PageDemo;
 use Ungnguyen\PhpDesignPattern\Structural\Adapter\Notification\NotificationDemo;
 use Ungnguyen\PhpDesignPattern\Structural\Adapter\PegAndHole\PegAndHoleDemo;
 use Ungnguyen\PhpDesignPattern\Structural\Bridge\ImageImplementor\ImageImplementorDemo;
@@ -76,4 +77,9 @@ use Ungnguyen\PhpDesignPattern\Structural\Proxy\YoutubeManager\YoutubeManagerDem
 /**
  * Builder pattern demo
  */
-HousePlanDemo::main();
+//HousePlanDemo::main();
+
+/**
+ * Prototype pattern demo
+ */
+PageDemo::main();

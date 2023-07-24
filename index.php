@@ -72,4 +72,9 @@ require_once 'vendor/autoload.php';
  * Chain of responsibility pattern demo
  */
 //Ungnguyen\PhpDesignPattern\Behavioral\ChainOfResponsibility\AnimalFood\AnimalFoodDemo::main();
-Ungnguyen\PhpDesignPattern\Behavioral\ChainOfResponsibility\Middleware\MiddlewareDemo::main();
+//Ungnguyen\PhpDesignPattern\Behavioral\ChainOfResponsibility\Middleware\MiddlewareDemo::main();
+
+/**
+ * Command pattern demo
+ */
+Ungnguyen\PhpDesignPattern\Behavioral\Command\LightRemoteControl\LightRemoteControlDemo::main();

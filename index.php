@@ -88,4 +88,5 @@ require_once 'vendor/autoload.php';
 /**
  * Mediator pattern demo
  */
-Ungnguyen\PhpDesignPattern\Behavioral\Mediator\ChatRoom\ChatRoomDemo::main();
+//Ungnguyen\PhpDesignPattern\Behavioral\Mediator\ChatRoom\ChatRoomDemo::main();
+Ungnguyen\PhpDesignPattern\Behavioral\Mediator\EventCoordinator\EventCoordinatorDemo::main();

@@ -82,4 +82,5 @@ require_once 'vendor/autoload.php';
 /**
  * Iterator pattern demo
  */
-Ungnguyen\PhpDesignPattern\Behavioral\Iterator\NumberList\NumberListDemo::main();
+//Ungnguyen\PhpDesignPattern\Behavioral\Iterator\NumberList\NumberListDemo::main();
+Ungnguyen\PhpDesignPattern\Behavioral\Iterator\BuildInIterator\BuildInIteratorDemo::main();

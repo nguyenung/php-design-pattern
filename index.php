@@ -77,4 +77,9 @@ require_once 'vendor/autoload.php';
 /**
  * Command pattern demo
  */
-Ungnguyen\PhpDesignPattern\Behavioral\Command\LightRemoteControl\LightRemoteControlDemo::main();
+//Ungnguyen\PhpDesignPattern\Behavioral\Command\LightRemoteControl\LightRemoteControlDemo::main();
+
+/**
+ * Iterator pattern demo
+ */
+Ungnguyen\PhpDesignPattern\Behavioral\Iterator\NumberList\NumberListDemo::main();

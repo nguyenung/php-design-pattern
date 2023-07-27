@@ -100,4 +100,5 @@ require_once 'vendor/autoload.php';
 /**
  * Observer pattern demo
  */
-Ungnguyen\PhpDesignPattern\Behavioral\Observer\BuildInObserver\BuildInObserverDemo::main();
+//Ungnguyen\PhpDesignPattern\Behavioral\Observer\BuildInObserver\BuildInObserverDemo::main();
+Ungnguyen\PhpDesignPattern\Behavioral\Observer\EventPublisher\EventPublisherDemo::main();

@@ -95,4 +95,9 @@ require_once 'vendor/autoload.php';
  * Memento pattern demo
  */
 //Ungnguyen\PhpDesignPattern\Behavioral\Memento\MementoSample\MementoSampleDemo::main();
-Ungnguyen\PhpDesignPattern\Behavioral\Memento\TextEditor\TextEditorDemo::main();
+//Ungnguyen\PhpDesignPattern\Behavioral\Memento\TextEditor\TextEditorDemo::main();
+
+/**
+ * Observer pattern demo
+ */
+Ungnguyen\PhpDesignPattern\Behavioral\Observer\BuildInObserver\BuildInObserverDemo::main();

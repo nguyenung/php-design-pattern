@@ -107,3 +107,8 @@ require_once 'vendor/autoload.php';
  * State pattern demo
  */
 //Ungnguyen\PhpDesignPattern\Behavioral\State\TrafficLight\TrafficLightDemo::main();
+
+/**
+ * Strategy pattern demo
+ */
+//Ungnguyen\PhpDesignPattern\Behavioral\Strategy\ControlTrafficLight\ControlTrafficLightDemo::main();

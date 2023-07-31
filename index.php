@@ -117,4 +117,9 @@ require_once 'vendor/autoload.php';
  * Template Method pattern demo
  */
 //Ungnguyen\PhpDesignPattern\Behavioral\TemplateMethod\Conceptual\ConceptualDemo::main();
-Ungnguyen\PhpDesignPattern\Behavioral\TemplateMethod\SocialNetworkMessage\SocialNetworkMessageDemo::main();
+//Ungnguyen\PhpDesignPattern\Behavioral\TemplateMethod\SocialNetworkMessage\SocialNetworkMessageDemo::main();
+
+/**
+ * Visitor pattern demo
+ */
+//Ungnguyen\PhpDesignPattern\Behavioral\Visitor\SalaryReport\SalaryReportDemo::main();

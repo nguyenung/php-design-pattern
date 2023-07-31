@@ -112,3 +112,9 @@ require_once 'vendor/autoload.php';
  * Strategy pattern demo
  */
 //Ungnguyen\PhpDesignPattern\Behavioral\Strategy\ControlTrafficLight\ControlTrafficLightDemo::main();
+
+/**
+ * Template Method pattern demo
+ */
+//Ungnguyen\PhpDesignPattern\Behavioral\TemplateMethod\Conceptual\ConceptualDemo::main();
+Ungnguyen\PhpDesignPattern\Behavioral\TemplateMethod\SocialNetworkMessage\SocialNetworkMessageDemo::main();
